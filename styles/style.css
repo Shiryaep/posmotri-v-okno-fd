@@ -159,7 +159,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   text-overflow: ellipsis;
@@ -191,7 +191,6 @@ ol {
 .search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
 }
-
 
 .search-form__textfield {
   width: 225px;
@@ -230,3 +229,33 @@ ol {
   opacity: 1;
 }
 
+.button {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  background: transparent;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+}
+
+.search-form__submit-button {
+  align-self: flex-end;
+  width: 194px;
+  height: 34px;
+}
+
+.more-button {
+  min-height: 34px;
+  width: 100%;
+}
