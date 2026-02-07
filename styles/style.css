@@ -99,6 +99,7 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -111,12 +112,14 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
 }
 
 .content__list-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
 }
 
 .content__video-card {
@@ -286,3 +289,4 @@ ol {
   min-height: 34px;
   width: 100%;
 }
+
